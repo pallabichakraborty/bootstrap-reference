@@ -2,6 +2,8 @@
 
 Smooth Scrolling
 
+$('body').scrollspy({target:'#main-nav'});
+
 //Add smooth scrolling
 $('#main-nav a').on('click',function(e) {
   //Check hash value
